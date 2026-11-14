@@ -1,11 +1,10 @@
-/*!
+﻿/*!
  * 🌸 Pinkie for Obsidian
- * Version: 1.0.0
- * Author: JustDuyen
+ * Version: 1.1.0
+ * Author: cmduyeen
  * Description: "For cute girls and gentle boys ~ ♡"
- * Copyright (c) 2026 JustDuyen. All rights reserved.
+ * Copyright (c) 2026 cmduyeen. All rights reserved.
  */
-
 :root,
 body,
 .theme-light {
@@ -2411,3 +2410,77 @@ h1, h2, h3, h4, h5, h6,
 }
 
 
+
+
+/* =============================================================
+ * 🌸 PINKIE KAWAII SIGNATURE ENHANCEMENTS
+ * =========================================================== */
+
+/* Kawaii Pill Tags */
+.tag, a.tag {
+  background-color: var(--lp-surface-2) !important;
+  color: var(--color-accent) !important;
+  border: 1px solid var(--lp-border) !important;
+  border-radius: 9999px !important;
+  padding: 3px 10px !important;
+  font-weight: 600 !important;
+  font-size: 0.85em !important;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+.tag:hover, a.tag:hover {
+  background-color: var(--color-accent) !important;
+  color: #ffffff !important;
+  border-color: var(--color-accent) !important;
+  box-shadow: 0 3px 8px rgba(212, 75, 139, 0.25) !important;
+  transform: translateY(-1px);
+}
+
+/* Cute Sakura / Heart Checkbox */
+input[type="checkbox"] {
+  border-radius: 6px !important;
+  border: 1.5px solid var(--color-accent) !important;
+  background-color: var(--lp-surface-1) !important;
+  cursor: pointer !important;
+  transition: all 0.2s ease !important;
+}
+
+input[type="checkbox"]:checked {
+  background-color: var(--color-accent) !important;
+  border-color: var(--color-accent) !important;
+}
+
+.task-list-item-checkbox {
+  transform: scale(1.05);
+}
+
+/* Kawaii Callouts */
+.callout {
+  border-radius: 12px !important;
+  border: 1.5px solid var(--lp-border) !important;
+  background-color: var(--lp-surface-1) !important;
+  box-shadow: 0 4px 14px rgba(212, 75, 139, 0.05) !important;
+}
+
+/* Soft Pink Scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #f1d3e2;
+  border-radius: 999px;
+  border: 2px solid transparent;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #d44b8b;
+}
+
+/* Soft Selection */
+::selection {
+  background-color: rgba(255, 183, 213, 0.45) !important;
+  color: inherit !important;
+}
